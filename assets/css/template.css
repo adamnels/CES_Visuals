@@ -1,0 +1,190 @@
+/* 
+    Document   : template
+    Created on : Jan 6, 2014, 11:08:16 AM
+    Author     : Anil
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body {
+    margin:0px;
+}
+/*
+================================================================================
+----------------------  Head Navbar Style   ------------------------------------
+================================================================================
+*/
+#nav{
+    background-color:#F5F5F5;
+    width:100%;
+    height:50px;
+    box-shadow: 0px 1px 5px #5E5E5E;
+    position:fixed;
+    top:0px;
+}
+.title{
+    color:#EDEDED;
+    font-family:verdana;
+    font-size:25px;
+    width:350px;
+    margin-top: -1px;
+    /*margin-left:150px; */
+    font-weight:bold;
+    float:left;
+}
+#navigation{
+    list-style-type:none;
+}
+li{
+    display:inline;
+    padding:10px;
+}
+#nav a {
+    font-family:verdana;
+    text-decoration:none;
+    color:#A9A9A9;
+    font-size: 18px;
+    line-height: 3;
+}
+#nav a:hover {
+    color:#BDBDBD;
+}
+
+/*
+================================================================================
+-----------------------------   COMMON STYLES   --------------------------------
+================================================================================
+*/
+.page-title{
+    margin-top: 70px;
+}
+.text-center{
+    text-align: center;
+}
+
+/*
+================================================================================
+----------------------------  CSS FOR GRAPH 1 ----------------------------------
+================================================================================
+*/
+.body-container {
+    width:1050px;
+    margin-top:70px !important;
+    font-family:verdana;
+    position: absolute;
+}
+.body-container svg{
+    float: left;
+}
+.background {
+    fill: none;
+    pointer-events: all;
+}
+#states {
+    fill: #aaa;
+}
+#state-borders {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 1.5px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    pointer-events: none;
+}
+#dialog{
+    float: left;
+}
+.ui-dialog{
+    width: 250px !important;
+    font-family: sans-serif !important;
+    font-size: 15px !important;
+    left: 900px !important;
+    top: 150px !important;
+    float: left;
+} 
+.ui-dialog p{
+    font-size: 12px !important;
+}
+#dialog p.dialog-title{
+    font-size: 16px;
+    font-family: verdana;
+    color: #838383;
+}
+#dialog p.dialog-subtitle{
+    font-size: 12px;
+    font-family: verdana;
+    color: #989898;
+}
+.circle_point{
+    opacity: 0.5;
+}
+
+/*
+================================================================================
+-----------------------------   STYLE FOR GRAPH 2 ------------------------------
+================================================================================
+*/
+.density-graph-container{
+    width:100%;
+    margin-top:70px !important;
+    font-family:verdana;
+}
+.states {
+    fill: none;
+    stroke: #fff;
+    stroke-linejoin: round;
+}
+
+/*
+================================================================================
+---------------------------   STYLE FOR GRAPH 3 --------------------------------
+================================================================================
+*/
+h1.world {
+    position: absolute;
+    top: 280px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    width: 960px;
+}
+
+/*
+================================================================================
+-------------------------- World Graph  ----------------------------------------
+================================================================================
+*/
+.world-map-container{
+    margin-left: 180px;
+    margin-top: 70px !important;
+}
+.water {
+  fill: #A4BAD0;
+}
+.graticule {
+  fill: none;
+  stroke: #fff;
+  stroke-width: .5px;
+}
+.graticule :nth-child(2n+16) {
+  stroke-dasharray: 2,2;
+}
+.graticule :nth-child(-2n+15) {
+  stroke-dasharray: 2,2;
+}
+.tectonic {
+  fill: none;
+  stroke: #000;
+  opacity: 0.5;
+}
+.land {
+  fill: #d7c7ad;
+  stroke: #766951;
+}
+.borders {
+  fill: none;
+  stroke: #a5967e;
+}
+.quake {
+  fill: rgba(0,0,0,0);
+  stroke-width: 1.5px;
+}
