@@ -1,0 +1,100 @@
+body {
+    padding: 40px 0px;
+    background: #e2e2e2;
+}
+.main-container{
+    background: #fff;
+    padding: 30px 10px 0px 10px;
+}
+.detail-background{
+    background: #DBE6F1;
+    min-height: 120px;
+}
+.detail-background h2{
+    padding-top: 10px;
+}
+.department-map-container-hover-detail, .display-map-container-hover-detail{
+    display: block;
+    height: 50px;
+}
+.inline-button-container{
+    padding-top: 10px;
+}
+.task-submission-button{
+    background: #28668c;
+    color: #ffffff;
+}
+.task-submission-button hover{
+    color: #000000;
+}
+h2, h3{
+    color: #28668c;
+}
+#myModal{
+    width:80% !important;
+    left: 10% !important;
+    margin:0 auto;
+}
+tr:hover{
+    cursor: pointer;
+}
+.width-100{
+    width: 100%;
+}
+.width-10{
+    width: 10%;
+}
+.width-20{
+    width: 20%;
+}
+.width-30{
+    width: 30%;
+}
+.display-map-container-legend{
+    max-height: 250px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-size: 11px;
+}
+.department-map-container-legend{
+    max-height: 250px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-size: 11px;
+}
+.background {
+    fill: #DBEAF9;
+    pointer-events: all;
+}
+#states {
+    fill: #aaa;
+}
+#state-borders {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 1.5px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    pointer-events: none;
+}
+.circle_point{
+    opacity: 0.5;
+}
+.density-map-container{
+    margin-top: 20px;
+}
+.point-display-detail{
+    margin: 20px 70px 40px 0;
+    padding: 5px;
+    border: 1px solid #e2e2e2;
+}
+.point-display-detail h4{
+    background: #DBEAF9;
+    padding: 10px;
+}
+.point-image img{
+    margin: 0 auto;
+    display: block;
+    width: 400px;
+    height: 280px;
+}
